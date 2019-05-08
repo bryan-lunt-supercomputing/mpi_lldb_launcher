@@ -53,7 +53,7 @@ int main(int argc, char** argv) {
 	foo = MPI_Comm_spawn(argv[1], execargs, SPAWN_NUMBER, spawn_info,
 		0,
 		MPI_COMM_WORLD, &comm_to_children,
-		outcodes);
+		MPI_ERRCODES_IGNORE);
 
 
 

@@ -1,0 +1,4 @@
+LLDB scripting first tutorial: http://ryanipete.com/blog/lldb/python/how_to_create_a_custom_lldb_command_pt_1/
+
+LLDB Python reference: https://lldb.llvm.org/python_reference/index.html
+

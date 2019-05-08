@@ -1,0 +1,2 @@
+command script import ./my_commands.py
+command script add -f my_commands.printworld hello

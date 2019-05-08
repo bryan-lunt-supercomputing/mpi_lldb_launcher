@@ -10,4 +10,4 @@
 #PMI_RANK
 #PMI_SIZE
 
-lldb-server -p --server --listen \*:0 --port-offset 1024 -f ./ports_${PMI_RANK} $1
+lldb-server p --server --listen \*:0 --port-offset 1024 -f ./port_${PMI_RANK} $1

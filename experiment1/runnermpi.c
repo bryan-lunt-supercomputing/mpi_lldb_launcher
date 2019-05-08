@@ -24,8 +24,6 @@ int main(int argc, char** argv) {
 
 	printf("MPI Hello Runner is about to exec(). \n");
 
-
-	MPI_Finalize();
 	int foo = 0;
 	foo = execv(argv[1],execargs);
 
